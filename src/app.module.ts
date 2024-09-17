@@ -9,7 +9,7 @@ import { VeiculoController } from './controller/veiculo/veiculo.controller';
   imports: [MongooseModule.forRoot('mongodb://localhost:27017',{dbName: 'crud'}),
     MongooseModule.forFeature([{ name: 'Veiculo', schema: VeiculoSchema }])],
 
-    /*MongooseModule.forRoot('mongodb+srv://andrecromatico44:iind2tG1VkyjZ7OA@cluster0.jevir.mongodb.net/'),
+    /*MongooseModule.forRoot('mongodb+srv://andrecromatico44:iind2tG1VkyjZ7OA@cluster0.jevir.mongodb.net/crudveiculo'),
 MongooseModule.forFeature([{ name: 'Veiculo', schema: VeiculoSchema}])*/
 
   controllers: [AppController, VeiculoController],
